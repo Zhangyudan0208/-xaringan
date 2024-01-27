@@ -1,9 +1,7 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "IKONOS-2 IMAGING SATELLITE"
+subtitle: "The world's first high-resolution commercial imaging satellite"
+author: "Ella Merten-Mancer"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,6 +9,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+    
 ---
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
