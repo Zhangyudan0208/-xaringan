@@ -4,12 +4,14 @@ subtitle: "Operational Earth observations at moderate resolution "
 author: "Yudan Zhang"
 output:
   xaringan::moon_reader:
+    css: ["custom.css", "default", "rladies", "rladies-fonts"] 
     lib_dir: libs
+    includes:
+      in_header: [assets/header.html]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-    
 ---
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE, htmltools.preserve.raw = FALSE)
