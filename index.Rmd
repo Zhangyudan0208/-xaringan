@@ -180,7 +180,7 @@ class: left
 .center[
 # Reflections and perspectives for future work
 ]
-
+<img src="android-chrome-192x192.png" class="slide-header-image">
 VIIRS (sensors do have some limitations and future research efforts could focus on technological advances and ways to overcome these limitations
 
 ## Breaking through the limitations of the sensor itself
@@ -191,6 +191,7 @@ VIIRS (sensors do have some limitations and future research efforts could focus 
 - Combining VIIRS nighttime lighting data with data from economic indicators, demographics, and other environmental variables can provide a more comprehensive model. Also using advanced data analysis techniques such as machine learning models, deeper insights can be extracted from multi-source data
 ---
 # References
+<img src="android-chrome-192x192.png" class="slide-header-image">
 Hillger, D. et al., 2014. Suomi NPP VIIRS Imagery evaluation, Journal of Geophysical Research: Atmospheres, årg. 119, nr. 11, s. 6440–6455.
 
 Li, X. et al., 2013. Potential of NPP-VIIRS Nighttime Light Imagery for Modeling the Regional Economy of China, Remote Sensing. Multidisciplinary Digital Publishing Institute, årg. 5, nr. 6, s. 3057–3081.
