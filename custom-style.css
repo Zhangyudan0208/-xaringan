@@ -1,0 +1,15 @@
+.slide-header-image {
+  position: absolute;
+  top: 10px; /* 调整到适当的距离顶部的距离 */
+  right: 10px; /* 调整到适当的距离右边的距离 */
+  width: 70px; /* 根据需要调整图片宽度 */
+}
+
+/* 可选：为了确保图片在所有幻灯片中的一致性，可以隐藏 xaringan 默认的进度条 */
+.remark-slide-number {
+  display: none;
+}
+
+.css {
+  color: white;
+}
