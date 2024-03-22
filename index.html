@@ -32,7 +32,7 @@
     <script src="libs/tile-view/tile-view.js"></script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x911f3d3f31f411796e69ac1edec00a3","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x88ec6d1fb6a4f4f88624c7f38233243","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
     <script src="libs/editable/editable.js"></script>
@@ -90,7 +90,7 @@ Source:[NOAA](https://www.star.nesdis.noaa.gov/jpss/VIIRS.php)
 ]
 .panel[.panel-name[Temporal Resolution]
 - The higher level VIIRS land products (e.g. Level 3 and Level 4) distributed from the NASA’s Land Processes Distributed Active Archive Center (LP DAAC) are produced at various temporal resolutions. 
-- The following time increments are available for VIIRS land products: Daily, 8-Day, 16-Day, Monthly, Yearly 
+- The following time increments are available for VIIRS land products: Daily, 8-Day, 16-Day, Monthly, Yearly. 
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="VIIRS-data-based-temporal-evolution-of-the-estimated-TADR-m-3-s-from-4-July-to-30.png" alt="VIIRS data-based temporal evolution of the estimated TADR (m 3 /s) from 4 July to 30 August 2019. " width="40%" /&gt;
 &lt;p class="caption"&gt;VIIRS data-based temporal evolution of the estimated TADR (m 3 /s) from 4 July to 30 August 2019. &lt;/p&gt;
@@ -129,41 +129,44 @@ class: left
 .pull-right[
 ![](jgrd51437-fig-0001-m.jpg)
 This image product shows the ability of high-resolution imagery to determine sea ice extent and ice edges using false color imagery
+
 Source:[NOOA](https://www.star.nesdis.noaa.gov/jpss/VIIRS.php), [Hillger et al. 2014](https://agupubs-onlinelibrary-wiley-com.libproxy.ucl.ac.uk/doi/full/10.1002/2013JD021170)
 ]
 ---
-# Research example 1
+# Research Example 1 - Fire Detection
 &lt;img src="android-chrome-192x192.png" class="slide-header-image"&gt;
 .pull-left[
-- Expansion of the MODIS active fire record with the VIIRS sensor and subsequent Joint Polar Satellite System (JPSS) series[(Li et al. 2013)](https://www.mdpi.com/2072-4292/5/6/3057)
-- 750 metres Suomi NPP Data Development Level 2 Active Fire (NDEAF-L2) providing daily global active fire data
-- On continental scales and in most fire clusters, VIIRS fire radiant power is roughly comparable to MODIS fire radiant power over the same period of time. the VIIRS average fire radiant power per pixel is fairly stable across the strip
+- Expansion of the MODIS active fire record with the VIIRS sensor and subsequent Joint Polar Satellite System (JPSS) series[(NASA Worldview)](https://worldview.earthdata.nasa.gov/).
+- 750 m Suomi NPP Data Development Level 2 Active Fire (NDEAF-L2) providing daily global active fire data.
+- On continental scales and in most fire clusters, VIIRS fire radiant power is roughly comparable to MODIS fire radiant power over the same period of time. the VIIRS average fire radiant power per pixel is fairly stable across the strip.
 ]
 .pull-right[
 ![](jgrd54581-fig-0001-m.jpg)
-Global active fire detections from Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) and Suomi National Polar-orbiting Partnership Visible Infrared Imaging Radiometer Suite (VIIRS) on 15 September 2016
-Image credit:[Li et al. 2013](https://www.mdpi.com/2072-4292/5/6/3057)
+Global active fire detections from MODIS and VIIRS on 15 September 2016
+
+Image credit:[NASA Worldview](https://worldview.earthdata.nasa.gov/)
 ]
 
 ---
-# Research example 2
+# Research Example 2 - Modeling Global and Regional Economies
 &lt;img src="android-chrome-192x192.png" class="slide-header-image"&gt;
 .pull-left[
-- NPP-VIIRS data can be used to model global and regional economies, especially in regions where economic census data are difficult to obtain. The use of regression modelling to predict regional GRP from the use of NPP-VIIRS data[(Hillger et al. 2014)](https://agupubs-onlinelibrary-wiley-com.libproxy.ucl.ac.uk/doi/full/10.1002/2013JD021170)
-- A mask with all positive pixels was generated from the 2010 DMSP-OLS image and the NPP-VIIRS image was multiplied by the mask to obtain a denoised nighttime light image. Elimination of non-economic activity related confounders
-- NPP-VIIRS data found to be more predictive of GRP than DMSP-OLS data
+- NPP-VIIRS data can be used to model economies in regions where economic census data are difficult to obtain. The use of regression modelling to predict gross regional product(GRP) from the use of NPP-VIIRS data[(Li et al. 2013)](https://agupubs-onlinelibrary-wiley-com.libproxy.ucl.ac.uk/doi/full/10.1002/2013JD021170).
+- A mask with all positive pixels was generated from the 2010 DMSP-OLS image and the NPP-VIIRS image was multiplied by the mask to obtain a denoised nighttime light image. Elimination of non-economic activity related confounders.
+- NPP-VIIRS data found to be more predictive of GRP than DMSP-OLS data.
 ]
 .pull-right[
 ![](remotesensing-05-03057f5-1024.jpg)
 2012 NPP-VIIRS Nighttime Lighting Imagery of China's Landmasses
-Image credit:[Hillger et al. 2014](https://agupubs-onlinelibrary-wiley-com.libproxy.ucl.ac.uk/doi/full/10.1002/2013JD021170)
+
+Image credit:[Li et al. 2013](https://www.mdpi.com/2072-4292/5/6/3057)
 ]
 ---
-# Reflections on the use of this sensor-Advantages
+# Reflection - Advantages
 &lt;img src="android-chrome-192x192.png" class="slide-header-image"&gt;
 .pull-left[
-## Clear resolution advantage, wide range of application scenarios
-- VIIRS, equipped with multiple spectral bands spanning from visible to infrared, captures comprehensive details of Earth's surface and atmosphere and offers high-resolution images, supporting diverse applications in oceanography, climatology, environmental monitoring, agriculture, forestry, and more
+## Wide range of application scenarios
+- VIIRS, equipped with multiple spectral bands spanning from visible to infrared, captures comprehensive details of Earth's surface and atmosphere and offers high-resolution images, supporting diverse applications in oceanography, climatology, environmental monitoring, agriculture, forestry, and more.
 ]
 .pull-right[
 ## Unique imaging capabilities
@@ -173,28 +176,28 @@ Image credit:[Hillger et al. 2014](https://agupubs-onlinelibrary-wiley-com.libpr
 ---
 class: left
 .center[
-# Reflections on the use of this sensor-Limitation
+# Reflection - Limitation
 ]
 &lt;img src="android-chrome-192x192.png" class="slide-header-image"&gt;
 ## Sensor's own limitations
-- As an instrument on a polar-orbiting satellite, VIIRS's daily revisit cycle limits its use in situations where rapid monitoring updates are required. As with all optical sensors, VIIRS performance may be limited in cloudy or inclement weather conditions where clouds can block the view from the ground. Spatial resolution is low compared to geosynchronous orbiting satellites 
+- As an instrument on a polar-orbiting satellite, VIIRS's daily revisit cycle limits its use in situations where rapid monitoring updates are required. As with all optical sensors, VIIRS performance may be limited in cloudy or inclement weather conditions where clouds can block the view from the ground.
 
 ##Insufficient interpretation of a single dataset
-- VIIRS night-time light data, useful for assessing the night-time economy, requires supplementing with local economic data for regional modeling, as it cannot be the sole source for accurate analysis
+- VIIRS night-time light data, useful for assessing the night-time economy, requires supplementing with local economic data for regional modeling, as it cannot be the sole source for accurate analysis.
 ---
 class: left
 .center[
-# Reflections and perspectives for future work
+# Reflection - perspectives for future work
 ]
 &lt;img src="android-chrome-192x192.png" class="slide-header-image"&gt;
-VIIRS (sensors do have some limitations and future research efforts could focus on technological advances and ways to overcome these limitations
+VIIRS sensors do have some limitations and future research efforts could focus on technological advances and ways to overcome these limitations.
 
 ## Breaking through the limitations of the sensor itself
-- Attempts to combine VIIRS data with data from other sensors, e.g. MODIS, Landsat, could provide more frequent and higher resolution updates
+- Attempts to combine VIIRS data with data from other sensors, e.g. MODIS, Landsat, could provide more frequent and higher resolution updates.
 
 
 ## Combining data from multiple sources
-- Combining VIIRS nighttime lighting data with data from economic indicators, demographics, and other environmental variables can provide a more comprehensive model. Also using advanced data analysis techniques such as machine learning models, deeper insights can be extracted from multi-source data
+- Combining RS data with data from economic indicators, demographics, and other environmental variables can provide a more comprehensive model. Also using advanced data analysis techniques such as machine learning models, deeper insights can be extracted from multi-source data.
 ---
 # References
 &lt;img src="android-chrome-192x192.png" class="slide-header-image"&gt;
