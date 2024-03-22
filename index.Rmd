@@ -45,7 +45,7 @@ xaringanExtra::use_extra_styles(
 
 class: center, title-slide, middle
 
-background-image: url("Northwestern_Europe_at_night_by_VIIRS.jpg")
+background-image: url("background.jpg")
 background-size: cover
 background-position: center
 
